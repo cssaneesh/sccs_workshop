@@ -14,6 +14,7 @@ library(ggplot2)
 # copy link to required sheet
 intro_data <- read_sheet('https://docs.google.com/spreadsheets/d/1exaaZgECbJPIg8NBI8AbnDJJIkik4LicYuRe7H_g8Qo/edit#gid=0')
 
+names(intro_data)
 # or
 # copy the sheet ID
 # intro_data1 <- read_sheet('1exaaZgECbJPIg8NBI8AbnDJJIkik4LicYuRe7H_g8Qo')
